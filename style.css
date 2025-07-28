@@ -4,20 +4,14 @@ body {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
+    display: grid;
+    place-items: center;
+    font-size: x-large;
 }
 
 h2,
 h1 {
     margin-bottom: 0.1em;
-}
-
-.wrapper {
-    display: grid;
-    place-items: center;
-}
-
-.large-text {
-    font-size: x-large;
 }
 
 .copyright {
